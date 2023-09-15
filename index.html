@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Portafolio | Darling De La Cruz</title>
+</head>
+<body>
+    <header class="header">
+        <a href="" class="logo"> Darling De La Cruz</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">Sobre mí</a>
+            <a href="#projects">Proyectos</a>
+            <a href="#contact">Contacto</a>
+        </nav>
+    </header>
+
+    <!-- HOME -->
+    <section class="section-home" id="home">
+        <div class="containerA">
+            <div class="boxB col1">
+                <img src="img/profile_!.jpg" class="imgBanner" alt="">
+            </div>
+            <div class="boxB col2">
+                <h4><span>Hola!</span>, Me Llamo</h4>
+                <h1>Darling De La Cruz.</h1>
+                <p id="txtBanner">
+                    Programador apasionado con una mente curiosa que disfruta resolviendo problemas complejos y desafiantes del mundo real.
+                </p>
+                <div>
+                    <a href="" class="btnBanner">DESCARGAR CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- ABOUT -->
+<!-- ABOUT -->
+    <section class="section-about" id="about">
+        <div class="container">
+            <h2 class="projects-title">Sobre Mí</h2>
+            <div class="about-columns">
+                <div class="column">
+                    <p id="txtBanner">
+                        Me identifico como un programador autodidacta con residencia en Ecuador. Disfruto enfrentando desafíos complejos y creando soluciones innovadoras. Mi enfoque en el aprendizaje autónomo me ha permitido desarrollar habilidades sólidas en una variedad de tecnologías y lenguajes de programación.
+                    </p>
+                </div>
+                <div class="column">
+                    <img src="img/developer.jpg" alt="Tu Foto">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- PROYECTOS -->
+    <section class="main__projects container" id="projects">
+        <h2 class="projects-title">Proyectos</h2>
+        <article class="card">
+            <img class="card-img" src="img/bus_1.png" alt="">
+            <div class="card-container">
+                <h2 class="card-title">
+                    Asiento Ágil
+                </h2>
+                <p class="card-paragraph">
+                    App móvil para reservar asientos de autobús, permitiendo a los usuarios buscar rutas, elegir asientos generarando un código QR con la información de reserva.
+                </p>
+                <a href="https://github.com/Darling1998/Reserva_Ticket_bus" class="card-button"> Leer más</a>
+            </div>
+        </article>
+        <article class="card">
+            <img class="card-img" src="img/restaurant_1.png" alt="">
+            <div class="card-container">
+                <h2 class="card-title">
+                    Deli Menú
+                </h2>
+                <p class="card-paragraph">
+                    Aplicación móvil  que permite a los dueños de restaurantes añadir y actualizar sus menús de forma sencilla. Los clientes pueden realizar pedidos a domicilio de manera rápida y cómoda, disfrutando de una experiencia culinaria sin complicaciones desde la comodidad de sus hogares.
+                </p>
+                <a href="https://github.com/Darling1998/Restaurant-Delivery" class="card-button"> Leer más</a>
+            </div>
+
+        </article>
+        <article class="card">
+            <img class="card-img" src="img/chat.png" alt="">
+            <div class="card-container">
+                <h2 class="card-title">
+                    Chatgpt
+                </h2>
+                <p class="card-paragraph">
+                    Aplicación móvil que integra la API de chatgpt.
+                </p>
+                <a href="https://github.com/Darling1998/ChatGpt-Ionic" class="card-button"> Leer más</a>
+            </div>
+
+        </article>
+<!--         <article class="card">
+            <img class="card-img" src="img/servi.PNG" alt="">
+            <div class="card-container">
+                <h2 class="card-title">
+                    Deli Menú
+                </h2>
+                <p class="card-paragraph">
+                    Aplicación web integral para la gestión de horarios médicos, reservas de citas y seguimiento de historiales clínicos. Permite a pacientes reservar citas fácilmente, acceder a su historial y facilita a los profesionales de la salud administrar sus agendas de manera eficaz, mejorando la atención médica
+                </p>
+                <a href="" class="card-button"> Leer más</a>
+            </div>
+
+        </article> -->
+    </section>
+
+
+    <!-- CONTACTO -->
+    <section class="main__contact container" id="contact">
+        <div class="contact_container">
+            <form action="https://formsubmit.co/darlingdcpruebas98@gmail.com" method="POST" class="form" />
+                <h2 class="projects-title">Contacto</h2>
+                <p class="form__paragraph">
+                    Si tiene otra solicitud o pregunta, no dude en utilizar el formulario.
+                </p>
+
+                <div class="form__container">
+                    <div class="form__group">
+                        <input type="text" id="nombre" class="form__input" placeholder=" " name="nombre">
+                        <label for="nombre" class="form__label">Nombre</label>
+                        <span class="form__line"></span>
+                    </div>
+
+                    <div class="form__group">
+                        <input type="text" id="email" class="form__input" placeholder=" " name="email">
+                        <label for="email" class="form__label">Email</label>
+                        <span class="form__line"></span>
+                    </div>
+
+                    <div class="form__group">
+                        <input type="text" id="message" class="form__input" placeholder=" " name="mensaje">
+                        <label for="message" class="form__label">Mensaje</label>
+                        <span class="form__line"></span>
+                    </div>
+
+                    <input type="submit" class="form_submit" value="Enviar">
+                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/principal.html">
+                    <input type="hidden" name="_captcha" value="false">
+
+                </div>
+            </form>
+        </div>
+
+    </section>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
